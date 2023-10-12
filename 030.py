@@ -1,4 +1,4 @@
-DIGITS_FIFTH_POWER={str(digit): digit**5 for digit in range(10)}
+DIGITS_FIFTH_POWER = {str(digit): digit**5 for digit in range(10)}
 
 
 def digits_fifth_powers_sum(number: int) -> int:
