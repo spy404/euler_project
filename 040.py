@@ -1,7 +1,6 @@
 def solution():
     constant = []
     i = 1
-
     while len(constant) < 1e6:
         constant.append(str(i))
         i += 1
