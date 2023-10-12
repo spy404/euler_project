@@ -27,7 +27,6 @@ def try_key(ciphertext: list[int], key: tuple[int, ...]) -> str | None:
 
     return decoded
 
-
 def filter_valid_chars(ciphertext: list[int]) -> list[str]:
     possibles: list[str] = []
     for key in product(LOWERCASE_INTS, repeat=3):
