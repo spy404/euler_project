@@ -4,7 +4,6 @@ from math import factorial
 def combinations(n, r):
     return factorial(n) / (factorial(r) * factorial(n - r))
 
-
 def solution():
     total = 0
 
